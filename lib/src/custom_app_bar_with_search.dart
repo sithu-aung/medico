@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 
-PreferredSize customAppBarWithSearch(BuildContext context, String name,
-    Function(String) onChanged, Color backgroundColor, Color textColor,String hintText) {
+PreferredSize customAppBarWithSearch(
+    BuildContext context,
+    String name,
+    Function(String) onChanged,
+    Color backgroundColor,
+    Color textColor,
+    String hintText) {
   TextEditingController searchController = TextEditingController();
 
   return PreferredSize(
@@ -37,7 +42,7 @@ PreferredSize customAppBarWithSearch(BuildContext context, String name,
                     onChanged(val);
                   },
                   decoration: InputDecoration(
-                    hintText: '',
+                    hintText: hintText,
                     hintStyle:
                         const TextStyle(color: Colors.white, fontSize: 14.0),
                     fillColor: Colors.white.withOpacity(0.2),
