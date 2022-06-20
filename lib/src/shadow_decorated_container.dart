@@ -6,7 +6,10 @@ class ShadowDecoratedContainer extends StatelessWidget {
   Widget child;
 
   ShadowDecoratedContainer(
-      {Key? key, required this.radius, required this.color,required this.child})
+      {Key? key,
+      required this.radius,
+      required this.color,
+      required this.child})
       : super(key: key);
 
   @override
