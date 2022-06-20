@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class ShadowDecoratedContainer extends StatelessWidget {
-  double radius;
-  Color color;
-  Widget child;
+  final double radius;
+  final Color color;
+  final Widget child;
 
-  ShadowDecoratedContainer(
+  const ShadowDecoratedContainer(
       {Key? key,
       required this.radius,
       required this.color,
