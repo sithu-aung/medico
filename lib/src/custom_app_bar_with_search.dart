@@ -37,7 +37,7 @@ PreferredSize customAppBarWithSearch(BuildContext context, String name,
                     onChanged(val);
                   },
                   decoration: InputDecoration(
-                    hintText: 'ကုန်ပစ္စည်းရှာဖွေမည်',
+                    hintText: '',
                     hintStyle:
                         const TextStyle(color: Colors.white, fontSize: 14.0),
                     fillColor: Colors.white.withOpacity(0.2),
