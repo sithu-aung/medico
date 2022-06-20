@@ -4,6 +4,7 @@ Medico Widgets aim to extract some useful widgets for Flutter App Development.
 ## Features
 
 1. Customized Containers
+2. Custom App Bar With Back Arrow
 
    (* Updates will be added on)
 
