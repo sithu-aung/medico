@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-PreferredSize buildCustomAppBarWithFunction(
+PreferredSize customAppBarWithFunction(
   BuildContext context,
   String name,
   Function onBackPress,
