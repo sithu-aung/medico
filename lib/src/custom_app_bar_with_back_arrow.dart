@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-PreferredSize buildCustomAppBarWithBackArrow(BuildContext context, String name,
+PreferredSize customAppBarWithBackArrow(BuildContext context, String name,
     Color backgroundColor, Color textColor, double fontSize) {
   return PreferredSize(
     preferredSize: Size(
